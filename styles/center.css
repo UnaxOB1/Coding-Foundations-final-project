@@ -1,0 +1,73 @@
+.center-wrapper {
+    background-color: #3e4045;
+    height: 500px;
+    margin-top: none;
+    box-shadow: inset -190px -10px 90px 20px rgba(0, 0, 0, 0.80),
+                inset -0.0001px  40px  90px  -25px #a9a9a9;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.center-wrapper > .left-section {
+    margin-left: 120px;
+}
+
+.center-wrapper > .left-section > .text-content {
+display: flex;
+flex-direction: column;
+width: 560px;
+
+
+
+}
+
+.center-wrapper > .left-section > .text-content >.top-paragraph {
+    color: white;
+    font-weight: 100;
+    font-size: 2.3em;   
+    margin-top: 10px;
+    height: 190px;
+    margin-bottom: auto;
+}
+
+.center-wrapper > .left-section > .text-content >.bottom-paragraph {
+    color: rgb(192, 186, 186);
+    font-weight: 100;
+    font-size: 1.8em;  
+    line-height: 40px;
+    height: 190px;
+    margin-top: auto;
+}
+
+.center-wrapper > .left-section > .center-btn {
+    display: flex;
+    justify-content: start;
+    
+    
+}
+.center-wrapper > .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+
+    
+}
+
+.center-wrapper > .right-section > .example-text{
+color: white;
+font-weight: 700;
+margin-bottom: 6px;
+margin-left: 12px;
+}
+
+
+.center-wrapper > .right-section > .image img {
+    width: 500px;
+    height: 400px;
+   
+}
+
+

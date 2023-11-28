@@ -1,0 +1,30 @@
+.footer-wrapper{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #444444;   
+
+}
+
+.footer-wrapper button {
+    width: 400px;
+    height: 60px;
+    color:white;
+    font-weight: bold;
+    background-color: #444444;
+    border: 1px solid grey;
+    transition: 0.5s;
+
+}
+
+.footer-wrapper button:hover{
+    background-color: #222222;
+}
+
+
+.keyword {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}

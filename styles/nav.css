@@ -1,0 +1,115 @@
+.navigation-wrapper{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation-wrapper > .left-column > .logo {
+    width: 300px;
+}
+
+
+.navigation-wrapper > .left-column > .logo img{
+    width: 180px;
+    margin: 7px 60px 0px 15px;
+    
+}
+
+.navigation-wrapper > .center-column {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {
+    color: #48BF91;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .dropdown-text {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #949494;
+    transition: 0.5s;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .dropdown-text:hover {
+    color: white;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .dropdown-text > .icon {
+    font-size: 0.7em;
+    margin-left: 11px;
+    margin-top: 4px;
+}
+
+
+.navigation-wrapper > .center-column > .additional-text {
+    color: #F0DB56 ;
+    text-transform: uppercase;
+}
+
+
+
+.navigation-wrapper > .right-column{
+    margin-left: auto ;
+    margin-right: 30px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation-wrapper > .right-column a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navigation-wrapper > .right-column > .dropdown-link-btn {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3A3B3C;
+    color: white;
+    padding: 10px 19px;
+    border: 1px solid #3A3B3C;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.04em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .dropdown-link-btn:hover {
+    background-color: #222222;
+}
+
+.navigation-wrapper > .right-column > .dropdown-link-btn > .icon{
+font-size: 1.2em;
+color: #48BF91;
+margin-left: 6px;
+}
+
+.navigation-wrapper > .right-column > .search-icon {
+    color: #949494;
+    font-size: 1.5em;
+    margin-top: 8px;
+}
+
